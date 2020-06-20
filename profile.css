@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #00ffff;
+    font-family: 'Open Sans,' sans serif;
+    
+}
+.container {
+
+    background-color: #ffe4c4;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(../images/deep13.jpg);
+}
+header {
+    background-color: pink;
+}
+h1 {
+font-family: 'Monoton', cursive;
+font-size: 300%;
+text-align: center;
+
+image-rendering: initial;
+}
+header .hdrImgCon {
+
+    width: 60%;
+    margin: 0 auto;
+}
+header .hdrImgCon img {
+    width: 100;
+}
+nav {
+    background-color: lime;
+    width: 100%;
+}
+
+nav ul{
+    background-color: mediumorchid;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    background-color: mintcream;
+    display: inline-block;
+    width: 23%;
+    list-style-type: none;
+    text-align: center;
+    font-size: 0.75rem;
+}
+div
+grid-container {
+border: 4px solid black;
+display: grid;
+grid-template-columns: 100px repeat (2, 1fr);
+grid-template-rows: 100px;
+/*  grid-auto-rows: 200px; */
+/*  grid-auto-columns: 50px; */
+
+
+}
+*grid-item {
+border: 2px solid mediumvioletred;
+padding: 10px;
+background-image: url(../images/deep13.jpg);
+}
+
+nav ul li a:link {
+text-decoration:none;
+color: #000000;
+display: block;
+background-color: teal;
+
+
+}
+
+nav ul li a:visited {
+text-decoration:none;
+color: #410202;
+display: block;
+background-color: violet;
+
+
+}
+
+nav ul li a:hover {
+text-decoration:none;
+color: #ffffff;
+display: block;
+background-color: tomato;
+
+
+}
+nav ul li a:active {
+text-decoration:none;
+color: #2de846 ;
+display: block;
+background-color: black;
+
+}
+
+aside {
+    background-color: darkgreen;
+    width: 27%;
+    float: left;
+
+}
+aside h2 {
+    text-align: center;
+}
+aside section h3 {
+    text-align: center;
+}
+aside .top {
+margin: 0 0 0 2%;
+}
+aside section .asImCon {
+    width: 90%;
+    margin: 0 auto;
+}
+aside section .asImCon img{
+    width: 100%;
+}
+
+aside section ol {
+    list-style-position: inside;
+}
+main {
+    background-color: darksalmon;
+    width: 70%;
+    float: center;
+}
+section{
+    background-color: lavender;
+    
+}
+footer {
+    background-color: steelblue;
+    clear: both;
+    background-image: url(..images/);
+}
+footer p {
+    padding: 1%;
+    font-size: .75rem;
+    font-weight: bold;
+}
+footer p a{
+    color: #ffffff;
+}
